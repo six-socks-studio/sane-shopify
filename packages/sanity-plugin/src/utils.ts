@@ -1,4 +1,7 @@
-import { SanityDocumentConfig, SanityField } from '@sane-shopify/types'
+import {
+  SanityDocumentConfig,
+  SanityField,
+} from '@six-socks-studio/sane-shopify-types'
 
 interface Fields {
   additionalFields: SanityField[]

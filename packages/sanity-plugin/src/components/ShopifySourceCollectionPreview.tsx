@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { Collection } from '@sane-shopify/types'
+import { Collection } from '@six-socks-studio/sane-shopify-types'
 import { Progress } from './Progress'
 import { Value } from './shared'
 import { Provider, useSaneContext } from '../Provider'

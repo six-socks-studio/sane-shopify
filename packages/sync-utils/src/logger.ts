@@ -6,7 +6,7 @@ import {
   SyncOperation,
   SanityPair,
   OperationComplete,
-} from '@sane-shopify/types'
+} from '@six-socks-studio/sane-shopify-types'
 import Debug from 'debug'
 
 export const log = Debug('sane-shopify:patch')

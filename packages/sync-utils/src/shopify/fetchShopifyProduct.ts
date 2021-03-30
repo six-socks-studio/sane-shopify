@@ -1,6 +1,10 @@
 import gql from 'graphql-tag'
 import Debug from 'debug'
-import { ShopifyClient, ShopifyItemParams, Product } from '@sane-shopify/types'
+import {
+  ShopifyClient,
+  ShopifyItemParams,
+  Product,
+} from '@six-socks-studio/sane-shopify-types'
 import { mergePaginatedResults, getLastCursor } from '../utils'
 import { ShopifyCache } from './shopifyUtils'
 import { productFragment } from './queryFragments'

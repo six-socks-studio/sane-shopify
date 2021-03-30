@@ -4,7 +4,7 @@ import {
   SanityShopifyProductDocument,
   Collection,
   Product,
-} from '@sane-shopify/types'
+} from '@six-socks-studio/sane-shopify-types'
 import { isShopifyProduct, isShopifyCollection } from './typeGuards'
 
 type Maybe<T> = T | null | undefined | void
@@ -123,6 +123,7 @@ export const prepareSourceData = <T extends Product | Collection>(item: T) => {
   if (isShopifyCollection(item)) {
     const { products, ...collection } = item
     return {
+      products,
       ...collection,
       image: item.image || {},
     }

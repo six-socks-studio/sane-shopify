@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { Paginated } from '@good-idea/unwind-edges'
-import { ShopifyImage } from '@sane-shopify/types'
-import { definitely } from '@sane-shopify/sync-utils'
+import { ShopifyImage } from '@six-socks-studio/sane-shopify-types'
+import { definitely } from '@six-socks-studio/sane-shopify-sync-utils'
 
 export interface ImagesPreviewProps {
   value: Paginated<ShopifyImage>

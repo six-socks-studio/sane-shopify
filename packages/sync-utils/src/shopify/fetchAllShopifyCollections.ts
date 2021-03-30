@@ -2,7 +2,11 @@ import gql from 'graphql-tag'
 import PQueue from 'p-queue'
 import Debug from 'debug'
 import { unwindEdges, Paginated } from '@good-idea/unwind-edges'
-import { ProgressHandler, ShopifyClient, Collection } from '@sane-shopify/types'
+import {
+  ProgressHandler,
+  ShopifyClient,
+  Collection,
+} from '@six-socks-studio/sane-shopify-types'
 import { ShopifyCache } from './shopifyUtils'
 import { mergePaginatedResults, getLastCursor } from '../utils'
 import { collectionFragment } from './queryFragments'

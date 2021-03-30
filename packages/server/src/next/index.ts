@@ -4,7 +4,7 @@ import {
   Webhooks,
   WebhookData,
   WebhookHandler,
-} from '@sane-shopify/types'
+} from '@six-socks-studio/sane-shopify-types'
 import { createWebhooks } from '../webhooks'
 
 export interface TypedNextApiRequest<Body = any> extends NextApiRequest {

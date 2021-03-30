@@ -1,5 +1,5 @@
-import { Webhooks, WebhooksConfig } from '@sane-shopify/types'
-import { createSyncingClient } from '@sane-shopify/sync-utils'
+import { Webhooks, WebhooksConfig } from '@six-socks-studio/sane-shopify-types'
+import { createSyncingClient } from '@six-socks-studio/sane-shopify-sync-utils'
 import { syncDocument } from './syncDocument'
 import { COLLECTION, PRODUCT } from './constants'
 

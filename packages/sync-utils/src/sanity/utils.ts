@@ -9,7 +9,7 @@ import {
   SanityShopifyProductVariant,
   SanityShopifyProductDocumentPartial,
   SanityShopifyCollectionDocumentPartial,
-} from '@sane-shopify/types'
+} from '@six-socks-studio/sane-shopify-types'
 import { isMatch as lodashIsMatch, pick } from 'lodash'
 import { slugify, definitely } from '../utils'
 import { isShopifyProduct, isShopifyCollection } from '../typeGuards'

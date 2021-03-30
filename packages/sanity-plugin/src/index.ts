@@ -1,6 +1,6 @@
 import { ShopifyIcon } from './icons/ShopifyIcon'
 import { ShopifyTool } from './ShopifyTool'
-import { SaneShopifyPluginConfig } from '@sane-shopify/types'
+import { SaneShopifyPluginConfig } from '@six-socks-studio/sane-shopify-types'
 import {
   createCollectionDocument,
   createProductDocument,

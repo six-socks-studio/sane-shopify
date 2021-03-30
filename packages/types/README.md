@@ -5,6 +5,7 @@
 - [Usage](#usage)
 
 <!-- tocstop -->
+
 This package is a Typescript typeRoot of typings of both common types throughout the @sane-shopify repo and external packages that otherwise have no types of their own.
 
 Common types are exported in `types/index.ts`, and external packages are typed in `external/package-name/index.d.ts`.
@@ -28,7 +29,7 @@ yarn add --dev @sane-shopify/types
 ```
 
 ```ts
-import { ShopifyClient } from '@sane-shopify/types'
+import { ShopifyClient } from '@six-socks-studio/sane-shopify-types'
 ```
 
 To use the external typings, update your `tsconfig.json` to include additional type root.

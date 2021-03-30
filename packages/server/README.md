@@ -36,11 +36,11 @@ See the follow-up instructions below for each method.
 Create a file that sets up the webhooks with your configuration, i.e. `src/webhooks.js`
 
 ```js
-import { createNextWebhooks } from '@sane-shopify/server'
+import { createNextWebhooks } from '@six-socks-studio/sane-shopify-server'
 // or
-// import { createAWSWebhooks } from '@sane-shopify/server'
+// import { createAWSWebhooks } from '@six-socks-studio/sane-shopify-server'
 // or
-// import { createWebhooks } from '@sane-shopify/server'
+// import { createWebhooks } from '@six-socks-studio/sane-shopify-server'
 import dotEnv from 'dotenv'
 
 dotEnv.config()
@@ -57,12 +57,10 @@ if (!authToken) throw new Error('You must provide a sanity auth token')
 if (!shopName) throw new Error('You must provide a shopify shop name')
 if (!accessToken) throw new Error('You must provide a shopify access token')
 
-
 // optional, see below
 const handleError = (err: Error) => {
   Sentry.captureException(err)
 }
-
 
 // 🚨 Alpha breaking change: This configuration changed in 0.20.0. If you are getting errors after updating, put your `onError` handler on the `config` object, and pass that object into `createWebhooks` as the sole argument.
 
@@ -78,7 +76,7 @@ const config = {
       accessToken,
     },
   },
-  onError: handleError
+  onError: handleError,
 }
 
 export const webhooks = createNextWebhooks(config)

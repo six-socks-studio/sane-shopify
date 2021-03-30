@@ -1,5 +1,8 @@
 import { SanityClient } from '@sanity/client'
-import { SanityShopifyDocument, SanityFetchParams } from '@sane-shopify/types'
+import {
+  SanityShopifyDocument,
+  SanityFetchParams,
+} from '@six-socks-studio/sane-shopify-types'
 import { SanityCache } from './sanityUtils'
 
 const defaultParams = {

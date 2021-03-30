@@ -1,4 +1,8 @@
-import { ShopifyClient, ShopifySecrets, Variables } from '@sane-shopify/types'
+import {
+  ShopifyClient,
+  ShopifySecrets,
+  Variables,
+} from '@six-socks-studio/sane-shopify-types'
 import LeakyBucket from '@good-idea/leaky-bucket'
 import { STOREFRONT_API_VERSION } from '../constants'
 import { DocumentNode } from 'graphql'

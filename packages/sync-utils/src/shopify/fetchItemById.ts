@@ -1,5 +1,9 @@
 import gql from 'graphql-tag'
-import { ShopifyClient, Product, Collection } from '@sane-shopify/types'
+import {
+  ShopifyClient,
+  Product,
+  Collection,
+} from '@six-socks-studio/sane-shopify-types'
 import { ShopifyCache } from './shopifyUtils'
 import { productFragment, collectionFragment } from './queryFragments'
 import { fetchAllCollectionProducts } from './fetchShopifyCollection'

@@ -89,7 +89,7 @@ Add the Product and Collection documents to your schema:
 ```js
 // schema.js
 
-import { saneShopify } from '@sane-shopify/sanity-plugin'
+import { saneShopify } from '@six-socks-studio/sane-shopify-sanity-plugin'
 
 const saneShopifyConfig = {
   ... // optional. see "configuration" below
@@ -249,25 +249,25 @@ _Scopes_:
 
 ## Alpha Changelog
 
-*0.20.0*
+_0.20.0_
 
 The config for `@sane-shopify/server` has changed. `onError` is now part of the main config object. Instead of `createWebhooks({ config, onError })`, do `createWebhooks(config)`. See the [`@sane-shopify/server` Readme](packages/server/README.md)
 
 Source data now includes shopify media. Thanks @liqueflies for adding this!
 
-*0.11.0*
+_0.11.0_
 
 `@sane-shopify/server` now exports functions that can be used to handle Shopify's webhooks.
 
-*0.10.1*
+_0.10.1_
 
 The plugin now marks products that are no longer in the Shopify catalogue as archived on their corresponding sanity documents. Relationships that no longer exist in Shopify are also removed.
 
-*0.9.0*
+_0.9.0_
 
 Fixes setup flow
 
-*0.8.0*
+_0.8.0_
 
 _This release contains several breaking changes._
 
@@ -281,7 +281,7 @@ New features:
 - Use `saneShopify(yourConfig)` instead of `createProductDocument`, `createCollectionDocument`, etc. See the updated documentation above.
 - Many of the internal object type names have been modified. After you re-sync, your documents will likely have many fields that need to be unset. If you would like to completely remove all shopify collections and documents from your dataset, you can use [this gist](https://gist.github.com/good-idea/1abc5429c0c2a0be760d3a318468c750)
 
-*0.7.0*
+_0.7.0_
 
 New features:
 

@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { SanityDocumentConfig } from '@sane-shopify/types'
+import { SanityDocumentConfig } from '@six-socks-studio/sane-shopify-types'
 import { MissingImage } from '../icons/MissingImage'
 import { getFieldConfig } from '../utils'
 import { ArchivedInput } from '../components/ArchivedInput'

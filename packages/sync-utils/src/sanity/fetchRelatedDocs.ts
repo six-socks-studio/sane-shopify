@@ -4,7 +4,7 @@ import {
   ShopifyItem,
   RelatedPairPartial,
   SanityUtils,
-} from '@sane-shopify/types'
+} from '@six-socks-studio/sane-shopify-types'
 import { SanityCache } from './sanityUtils'
 
 interface CacheResults {

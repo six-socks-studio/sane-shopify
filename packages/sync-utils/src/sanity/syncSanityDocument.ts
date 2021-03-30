@@ -8,7 +8,7 @@ import {
   SanityShopifyCollectionDocumentPartial,
   SanityShopifyProductDocumentPartial,
   SanityShopifyProductOptionValue,
-} from '@sane-shopify/types'
+} from '@six-socks-studio/sane-shopify-types'
 import deepMerge from 'deepmerge'
 import { omit } from 'lodash'
 import { definitely } from '../utils'
@@ -170,7 +170,7 @@ export const createSyncSanityDocument = (
       })
     ) {
       return {
-        type: 'skip' as 'skip',
+        type: 'skip' as const,
         sanityDocument: existingDoc,
         shopifySource: item,
       }
@@ -191,7 +191,7 @@ export const createSyncSanityDocument = (
 
       cache.set(refetchedDoc)
       return {
-        type: 'create' as 'create',
+        type: 'create' as const,
         // @ts-ignore
         sanityDocument: newDoc,
         shopifySource: item,
@@ -222,7 +222,7 @@ export const createSyncSanityDocument = (
     cache.set(refetchedDoc)
 
     return {
-      type: 'update' as 'update',
+      type: 'update' as const,
       sanityDocument: refetchedDoc,
       shopifySource: item,
     }

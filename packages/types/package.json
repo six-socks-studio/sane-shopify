@@ -1,5 +1,5 @@
 {
-  "name": "@sane-shopify/types",
+  "name": "@six-socks-studio/sane-shopify-types",
   "version": "0.20.4",
   "description": "Common typescript typings for @sane-shopify projects",
   "author": "Joseph Thomas <joseph@good-idea.studio>",

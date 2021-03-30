@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { Product, Collection } from '@sane-shopify/types'
+import { Product, Collection } from '@six-socks-studio/sane-shopify-types'
 import { useSaneContext } from '../../Provider'
 
 import { StatusBar } from './StatusBar'

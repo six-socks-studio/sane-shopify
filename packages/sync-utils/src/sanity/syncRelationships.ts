@@ -6,7 +6,7 @@ import {
   SanityReference,
   SanityPair,
   SanityShopifyDocument,
-} from '@sane-shopify/types'
+} from '@six-socks-studio/sane-shopify-types'
 import { definitely } from '../utils'
 import { isSanityProduct, isSanityCollection } from '../typeGuards'
 // import { log } from '../logger'

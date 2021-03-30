@@ -4,13 +4,13 @@ import {
   ShopifySecrets,
   SyncUtils,
   SyncMachineState,
-} from '@sane-shopify/types'
+} from '@six-socks-studio/sane-shopify-types'
 import * as React from 'react'
 import {
   createShopifyClient,
   syncUtils,
   KEYS_ID,
-} from '@sane-shopify/sync-utils'
+} from '@six-socks-studio/sane-shopify-sync-utils'
 // import { createShopifyClient } from '../shopifyClient'
 
 /* eslint-disable @typescript-eslint/no-var-requires */

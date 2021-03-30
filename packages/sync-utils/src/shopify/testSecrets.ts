@@ -1,4 +1,7 @@
-import { ShopifySecrets, TestSecretsResponse } from '@sane-shopify/types'
+import {
+  ShopifySecrets,
+  TestSecretsResponse,
+} from '@six-socks-studio/sane-shopify-types'
 import { createShopifyClient } from './createShopifyClient'
 
 /**

@@ -14,7 +14,7 @@ import {
   RelatedPairPartial,
   SyncUtils,
   SyncMachineState,
-} from '@sane-shopify/types'
+} from '@six-socks-studio/sane-shopify-types'
 import { syncStateMachine } from './syncState'
 import { createLogger, Logger } from './logger'
 import { createShopifyClient, shopifyUtils } from './shopify'
@@ -349,6 +349,7 @@ export const syncUtils = (
     const relationshipQueue = new PQueue({ concurrency: 1 })
     await relationshipQueue.addAll(
       results.map((result) => async () => {
+        // @ts-ignore
         const linkOperation = await makeRelationships(result)
         logger.logLinked(result.operation.sanityDocument, linkOperation.pairs)
         onDocumentLinked(linkOperation)

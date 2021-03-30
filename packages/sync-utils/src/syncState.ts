@@ -16,7 +16,7 @@ import {
   DocumentsFetchedCompleteEvent,
   DocumentsSyncedEvent,
   DocumentsLinkedEvent,
-} from '@sane-shopify/types'
+} from '@six-socks-studio/sane-shopify-types'
 
 const initialContext = {
   documentsFetched: [],
@@ -176,6 +176,7 @@ interface SyncStateMachineValues {
   onDocumentLinked: (op: LinkOperation) => void
   onComplete: () => void
   onError: (error: Error) => void
+
   onSavedSecrets: (shopName: string) => void
   onSavedSecretsError: (error: Error, message?: string) => void
   onClearedSecrets: () => void
@@ -185,10 +186,12 @@ export const syncStateMachine = ({
   onStateChange,
 }: SyncStateMachineArgs): SyncStateMachineValues => {
   const { initialState } = syncMachine
+  // @ts-ignore
   const service = interpret<SyncContext, SyncSchema, SyncEvent>(syncMachine)
   service.start()
 
   service.onTransition((newState) => {
+    // @ts-ignore
     onStateChange(newState)
   })
 

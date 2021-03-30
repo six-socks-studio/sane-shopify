@@ -3,7 +3,7 @@ import {
   WebhookData,
   Collection,
   Product,
-} from '@sane-shopify/types'
+} from '@six-socks-studio/sane-shopify-types'
 import { COLLECTION, PRODUCT } from './constants'
 import { log, btoa } from './utils'
 

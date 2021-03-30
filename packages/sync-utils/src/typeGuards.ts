@@ -4,7 +4,7 @@ import {
   SanityShopifyCollectionDocument,
   Product,
   Collection,
-} from '@sane-shopify/types'
+} from '@six-socks-studio/sane-shopify-types'
 
 export const isSanityProduct = (
   doc: Partial<SanityShopifyDocument>

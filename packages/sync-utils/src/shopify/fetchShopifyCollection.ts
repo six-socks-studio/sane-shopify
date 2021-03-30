@@ -4,7 +4,7 @@ import {
   ShopifyClient,
   ShopifyItemParams,
   Collection,
-} from '@sane-shopify/types'
+} from '@six-socks-studio/sane-shopify-types'
 import { mergePaginatedResults, getLastCursor } from '../utils'
 import { collectionFragment } from './queryFragments'
 import { ShopifyCache } from './shopifyUtils'

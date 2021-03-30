@@ -1,5 +1,8 @@
-import { Collection, Product } from '@sane-shopify/types'
-import { ShopifyUtils, ShopifyClient } from '@sane-shopify/types'
+import { Collection, Product } from '@six-socks-studio/sane-shopify-types'
+import {
+  ShopifyUtils,
+  ShopifyClient,
+} from '@six-socks-studio/sane-shopify-types'
 import { createFetchShopifyProduct } from './fetchShopifyProduct'
 import { createFetchShopifyCollection } from './fetchShopifyCollection'
 import { createFetchItemById } from './fetchItemById'

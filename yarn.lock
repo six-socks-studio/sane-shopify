@@ -2971,14 +2971,14 @@
     estree-walker "^1.0.1"
     picomatch "^2.2.2"
 
-"@sane-shopify/sync-utils@^0.20.4":
+"@six-socks-studio/sane-shopify-sync-utils@^0.20.4":
   version "0.20.4"
   resolved "https://registry.yarnpkg.com/@sane-shopify/sync-utils/-/sync-utils-0.20.4.tgz#d73f33e8d558c6782787a96e33d5835c7a571a01"
   integrity sha512-LQgLrgpeaLrS/LMpuvHFd2oc6u2Ydvtq3etMjz1yFlp4Ju0SdW8pIcgEcDAiPSwPnLDJhosUP+G2nCc5fxh3hQ==
   dependencies:
     "@good-idea/leaky-bucket" "^3.1.2"
     "@good-idea/unwind-edges" "^1.5.2"
-    "@sane-shopify/types" "^0.20.4"
+    "@six-socks-studio/sane-shopify-types" "^0.20.4"
     "@sanity/client" "^2.0.9"
     debug "^4.2.0"
     deepmerge "^4.2.2"
@@ -2988,7 +2988,7 @@
     p-queue "^6.6.2"
     xstate "^4.14.0"
 
-"@sane-shopify/types@^0.20.4":
+"@six-socks-studio/sane-shopify-types@^0.20.4":
   version "0.20.4"
   resolved "https://registry.yarnpkg.com/@sane-shopify/types/-/types-0.20.4.tgz#d5620e1efa5eb3f11833bb352181bb4e6e409972"
   integrity sha512-zToXickaHAGJGVs7X7BmqHNfqvT8k8t80M7VBvdoF5kheOlMCY8JLJJMU6jhXXHc6F6sxZu6wgu821zppohnWw==

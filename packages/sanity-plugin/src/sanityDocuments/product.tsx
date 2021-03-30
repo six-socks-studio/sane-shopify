@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { unwindEdges } from '@good-idea/unwind-edges'
-import { SanityDocumentConfig } from '@sane-shopify/types'
+import { SanityDocumentConfig } from '@six-socks-studio/sane-shopify-types'
 import { MissingImage } from '../icons/MissingImage'
 import { getFieldConfig } from '../utils'
 import { ArchivedInput } from '../components/ArchivedInput'
@@ -136,7 +136,7 @@ export const createProductVariant = ({
 const imageStyles = {
   width: '100%',
   height: '100%',
-  objectFit: 'cover' as 'cover',
+  objectFit: 'cover' as const,
 }
 
 const imageWrapperStyles = {

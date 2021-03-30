@@ -1,4 +1,7 @@
-import { ShopifyClient, SaneShopifyConfig } from '@sane-shopify/types'
+import {
+  ShopifyClient,
+  SaneShopifyConfig,
+} from '@six-socks-studio/sane-shopify-types'
 
 /**
  * Client Context

@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { unwindEdges } from '@good-idea/unwind-edges'
-import { Product } from '@sane-shopify/types'
+import { Product } from '@six-socks-studio/sane-shopify-types'
 import { Progress } from './Progress'
 import { Value } from './shared'
 import { Provider, useSaneContext } from '../Provider'
