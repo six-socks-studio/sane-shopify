@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.21.2](https://github.com/six-socks-studio/sane-shopify/compare/v0.21.1...v0.21.2) (2021-03-30)
+
+### Features
+
+- **sync-utils:** moving to cross-fetch ([03e1ea8](https://github.com/six-socks-studio/sane-shopify/commit/03e1ea8fb84905a64edd620f0607562a94f44036))
+
 ## [0.21.1](https://github.com/six-socks-studio/sane-shopify/compare/v0.21.0...v0.21.1) (2021-03-30)
 
 ### Bug Fixes
