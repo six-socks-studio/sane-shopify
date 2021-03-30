@@ -38,7 +38,7 @@
 		"url": "https://github.com/good-idea/sane-shopify/issues"
 	},
 	"dependencies": {
-		"@six-socks-studio/sane-shopify-sync-utils": "^0.20.4",
+		"@six-socks-studio/sane-shopify-sync-utils": "^0.21.0",
 		"apollo-link": "^1.2.14",
 		"apollo-link-http": "^1.5.17",
 		"apollo-server-lambda": "^2.22.0",
