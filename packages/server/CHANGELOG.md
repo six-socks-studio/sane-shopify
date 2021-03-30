@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.21.1](https://github.com/good-idea/sane-shopify/compare/v0.21.0...v0.21.1) (2021-03-30)
+
+### Bug Fixes
+
+- **server:** sync-utils dep ([cdf3bcc](https://github.com/good-idea/sane-shopify/commit/cdf3bcca8a264aed2dd341f48af597f7a3ba8608))
+
 # [0.21.0](https://github.com/good-idea/sane-shopify/compare/v0.20.4...v0.21.0) (2021-03-30)
 
 ### Features
